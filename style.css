@@ -1,0 +1,36 @@
+.cor-de-fundo {
+  background-color: #04B4AE;
+  -webkit-user-select: none; /* Impede a seleção no Safari */
+  -moz-user-select: none; /* Impede a seleção no Firefox */
+  -ms-user-select: none; /* Impede a seleção no Internet Explorer/Edge */
+  user-select: none; /* Impede a seleção em outros navegadores */
+}
+
+img {
+  -webkit-user-drag: none; /* Impede o arrastar de imagens no Safari */
+  user-drag: none; /* Impede o arrastar de imagens em outros navegadores */
+  -moz-user-select: none; /* Impede a seleção em imagens no Firefox */
+  
+}
+.coluna {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.video-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.video-item video {
+  width: 300px;
+  height: auto;
+}
+
+.video-item h3 {
+  margin-top: 5px;
+  font-size: 16px;
+}
